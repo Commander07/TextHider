@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "texthider",
+  "version": "${version}",
+  "name": "TextHider",
+  "description": "Hides nametags and text display entities",
+  "authors": [
+    "Commander07"
+  ],
+  "contact": {
+    "repo": "https://github.com/Commander07/TextHider"
+  },
+  "license": "MIT",
+  "icon": "assets/texthider/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.commander07.texthider.TextHider"
+    ]
+  },
+  "mixins": [
+    "texthider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

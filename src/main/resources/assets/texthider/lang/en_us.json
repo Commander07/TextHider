@@ -1,0 +1,6 @@
+{
+  "key.texthider.toggle": "Toggle Text Rendering",
+  "texthider.toggled": "Text rendering has been toggled %s. Press %s to toggle it back.",
+  "texthider.toggled.enabled": "on",
+  "texthider.toggled.disabled": "off"
+}
